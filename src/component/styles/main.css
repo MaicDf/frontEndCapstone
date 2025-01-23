@@ -1,0 +1,201 @@
+/* HERO SECTIOn */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4f4f4; /* Light background for contrast */
+  padding: 40px 100px;
+  border-bottom: 2px solid #ddd; /* Optional: Adds separation */
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.hero button {
+  padding: 10px 20px;
+  background-color: #f4a261;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero button:hover {
+  background-color: #e76f51;
+}
+
+.hero img {
+  max-width: 350px; /* Scales image */
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adds depth */
+}
+
+/* cards */
+.highlights {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #fff; /* Clean white background */
+}
+
+.highlights h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.highlights button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 40px;
+  transition: background-color 0.3s ease;
+}
+
+.highlights button:hover {
+  background-color: #555;
+}
+
+.highlights .cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap; /* Makes the layout responsive */
+}
+
+.highlights .card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 300px; /* Fixed width for consistent cards */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adds depth */
+}
+
+.highlights .card img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.highlights .card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.highlights .card p {
+  font-size: 1rem;
+  color: #555;
+  margin: 5px 0;
+}
+
+.highlights .card button {
+  padding: 10px 15px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.highlights .card button:hover {
+  background-color: #f4a261;
+}
+/* About */
+.about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+  align-items: center;
+  gap: 20px;
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+}
+
+.about h2 {
+  grid-column: span 2; /* Title spans across two columns */
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: center;
+}
+
+.about p {
+  grid-column: span 2;
+  font-size: 1.2rem;
+  color: #555;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.about div {
+  grid-column: span 2;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.about img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+}
+/* Testimonials */
+.testimonials {
+  padding: 60px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.testimonials .testimonial {
+  display: inline-block;
+  width: 250px;
+  margin: 0 10px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.testimonials img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.testimonials h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.testimonials p {
+  font-size: 1rem;
+  color: #555;
+  margin: 5px 0;
+}

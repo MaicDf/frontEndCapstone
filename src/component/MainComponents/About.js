@@ -1,3 +1,5 @@
+import founder1 from '../../static/Founder1.png';
+import founder2 from '../../static/Founder2.png';
 export default function About() {
   return (
     <section className="about">
@@ -7,8 +9,10 @@ export default function About() {
         Founded by culinary experts, Little Lemon is your go-to destination for
         Mediterranean delights and a warm dining experience.
       </p>
-      <img src="/path-to-founder1.jpg" alt="Founder 1" />
-      <img src="/path-to-founder2.jpg" alt="Founder 2" />
+      <div>
+        <img src={founder1} alt="Founder 1" />
+        <img src={founder2} alt="Founder 2" />
+      </div>
     </section>
   );
 }
